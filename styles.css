@@ -1,0 +1,30 @@
+body {
+  background-color: #b3d4a1;
+  padding: 40px;
+}
+
+.title {
+  background-color: #a5c791;
+  width: 70%;
+  height: 60px;
+  float: left;
+}
+
+.counter {
+  background-color: #535f66;
+  width: 30%;
+  height: 60px;
+  float: left;
+}
+
+h1 {
+  color: white;
+  font-family: monospace;
+  font-family: avenir;
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+.day {
+
+}
