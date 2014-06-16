@@ -8,6 +8,11 @@ body {
 .boxElem {
   margin: 3px;
   border-radius: 10px;
+  border: 1px solid gray;
+}
+
+.clear {
+  clear:both;
 }
 
 .title {
@@ -31,6 +36,10 @@ body {
 
 h1 {
   font-size: 20px;
+}
+
+input[type="range"] {
+  -webkit-transform: rotate(90deg);
 }
 
 .count {
