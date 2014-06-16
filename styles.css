@@ -1,28 +1,42 @@
 body {
   background-color: #b3d4a1;
   padding: 40px;
+  font-family: avenir;
+  color: white;
+}
+
+.boxElem {
+  margin: 3px;
+  border-radius: 10px;
 }
 
 .title {
   background-color: #a5c791;
-  width: 70%;
-  height: 60px;
+  width: 68%;
+  height: 55px;
   float: left;
+  padding: 5px 0px 0px 24px;
 }
 
 .counter {
   background-color: #535f66;
-  width: 30%;
+  width: 25%;
   height: 60px;
   float: left;
 }
 
+.counterInner {
+  padding: 15px;
+}
+
 h1 {
-  color: white;
-  font-family: monospace;
-  font-family: avenir;
-  margin-left: 20px;
-  font-size: 25px;
+  font-size: 20px;
+}
+
+.count {
+  font-family: menlo;
+  color: orange;
+  font-size: 30px;
 }
 
 .day {
