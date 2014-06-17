@@ -52,6 +52,7 @@ h2 {
 
 .day {
   width: 14.28%;
+  float:left;
 }
 
 .dayInner {

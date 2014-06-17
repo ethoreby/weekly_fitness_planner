@@ -1,7 +1,16 @@
 app = angular.module 'app', []
 
-days = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN']
-
 app.controller('MainController', ($scope) -> 
-  console.log($scope)
+  
+  $scope.order = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN',]
+
+  $scope.days = 
+    MON: 0
+    TUE: 0
+    WED: 0
+    THU: 0
+    FRI: 0
+    SAT: 0
+    SUN: 0
+
 )

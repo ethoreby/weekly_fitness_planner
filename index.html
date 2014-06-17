@@ -21,15 +21,13 @@
 
     <div class="clear"></div>
 
-    <div class="day">
+    <div class="day" ng-repeat="key in order">
       <div class="dayInner boxElem">
-        <div class="dayCounter boxElem"><span class="dayCount">20</span> min</div>
-        <input type="range" min="0" max="60" value="30" class="vertical" orient="vertical">
+        <div class="dayCounter boxElem"><span class="dayCount">{{days[key]}}</span> min</div>
+        <input type="range" min="0" max="60" ng-model="days[key]" class="vertical" orient="vertical">
       </div>
-      <h2>MON</h2>
+      <h2>{{key}}</h2>
     </div>
-
-
 
   </body>
 </html>
