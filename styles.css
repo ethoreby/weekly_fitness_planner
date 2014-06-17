@@ -44,24 +44,6 @@ h2 {
   text-align: center;
 }
 
-input[type="range"]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  background-color: white;
-  width: 10px;
-  height: 26px;
-  border-radius: 5px;
-  box-shadow: 4px -4px 4px gray;
-}
-
-input[type="range"] {
-  -webkit-appearance: none;
-  background-color: #535f66;
-  width: 280px;
-  height:6px;
-  -webkit-transform: rotate(90deg);
-  margin: 150px 0 0 -55px
-}
-
 .count {
   font-family: menlo;
   color: orange;
@@ -85,3 +67,14 @@ input[type="range"] {
   font-family: menlo;
   font-size: 30px;
 }
+
+input.vertical {
+  -webkit-appearance: slider-vertical; 
+  writing-mode: bt-lr;
+  width: 100%;
+}
+
+
+
+
+
