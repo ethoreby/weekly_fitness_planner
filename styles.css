@@ -72,9 +72,7 @@ input.vertical {
   -webkit-appearance: slider-vertical; 
   writing-mode: bt-lr;
   width: 100%;
+  height: 250px;
+  margin-top: 22px;
 }
-
-
-
-
 
