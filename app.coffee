@@ -15,11 +15,11 @@ app.controller('MainController', ($scope) ->
 
   sum = () ->
     total = 0
-    for day in $scope.days
-      total += day
+    for day, count of $scope.days
+      total += count
     total
 
-  $scope.$watchCollection('sum', () ->
+  $scope.$watchCollection('days', () ->
     $scope.sum = sum()
   )
 
