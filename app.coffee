@@ -13,4 +13,14 @@ app.controller('MainController', ($scope) ->
     SAT: 0
     SUN: 0
 
+  sum = () ->
+    total = 0
+    for day in $scope.days
+      total += day
+    total
+
+  $scope.$watchCollection('sum', () ->
+    $scope.sum = sum()
+  )
+
 )
