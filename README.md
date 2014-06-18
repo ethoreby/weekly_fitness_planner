@@ -3,7 +3,7 @@
 
 A draggable weekly calendar used to calculate the minimum recommendation for a fitness goal.
 
-#Compliling CoffeeScript
+#Compiling CoffeeScript
 
 If you don't have CoffeeScript installed, you can do so using npm: npm install -g coffee-script.
 
