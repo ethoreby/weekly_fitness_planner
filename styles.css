@@ -50,6 +50,10 @@ h2 {
   font-size: 30px;
 }
 
+.countSuccess {
+  color: rgb(13, 223, 13);
+}
+
 .day {
   width: 14.28%;
   float:left;

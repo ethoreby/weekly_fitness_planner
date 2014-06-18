@@ -9,12 +9,12 @@
   <body ng-controller="MainController">
     <div>
       <div class="title boxElem">
-        <h1>WEEKLY FITNESS GOAL: 150 MIN</h1>
+        <h1>WEEKLY FITNESS GOAL: {{target}} MIN</h1>
       </div>
 
       <div class="counter boxElem">
         <div class="counterInner">
-          <span class="count">{{sum}}</span> min
+          <span class="count" ng-class="{countSuccess:metTarget()}">{{sum}}</span> min
         </div>
       </div>
     </div>

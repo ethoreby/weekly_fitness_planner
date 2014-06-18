@@ -2,6 +2,8 @@ app = angular.module 'app', []
 
 app.controller('MainController', ($scope) -> 
   
+  $scope.target = 150
+
   $scope.order = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN',]
 
   $scope.days = 
@@ -18,6 +20,9 @@ app.controller('MainController', ($scope) ->
     for day, count of $scope.days
       total += parseInt count
     total
+
+  $scope.metTarget = () ->
+    $scope.sum >= $scope.target
 
   $scope.$watchCollection('days', () ->
     $scope.sum = sum()
