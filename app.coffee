@@ -16,7 +16,7 @@ app.controller('MainController', ($scope) ->
   sum = () ->
     total = 0
     for day, count of $scope.days
-      total += count
+      total += parseInt count
     total
 
   $scope.$watchCollection('days', () ->
