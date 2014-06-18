@@ -5,6 +5,23 @@ body {
   color: white;
 }
 
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-weight: 200;
+  text-align: center;
+}
+
+input.vertical {
+  -webkit-appearance: slider-vertical; 
+  writing-mode: bt-lr;
+  width: 100%;
+  height: 250px;
+  margin-top: 22px;
+}
+
 .boxElem {
   margin: 5px;
   border-radius: 5px;
@@ -32,15 +49,6 @@ body {
 
 .counterInner {
   padding: 15px;
-  text-align: center;
-}
-
-h1 {
-  font-size: 20px;
-}
-
-h2 {
-  font-weight: 200;
   text-align: center;
 }
 
@@ -73,11 +81,11 @@ h2 {
   font-size: 30px;
 }
 
-input.vertical {
-  -webkit-appearance: slider-vertical; 
-  writing-mode: bt-lr;
-  width: 100%;
-  height: 250px;
-  margin-top: 22px;
+.fadeDayCount {
+  color: gray;
 }
+
+
+
+
 

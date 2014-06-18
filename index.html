@@ -23,7 +23,7 @@
 
     <div class="day" ng-repeat="key in order">
       <div class="dayInner boxElem">
-        <div class="dayCounter boxElem"><span class="dayCount">{{days[key]}}</span> min</div>
+        <div class="dayCounter boxElem"><span class="dayCount" ng-class="{fadeDayCount: days[key] <= 0}">{{days[key]}}</span><span ng-hide="days[key] <= 0"> min</span></div>
         <input type="range" min="0" max="60" ng-model="days[key]" class="vertical" orient="vertical">
       </div>
       <h2>{{key}}</h2>
